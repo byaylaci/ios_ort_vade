@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B4FCCB71CCF998F00040EE7 /* orma_vade.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4FCCB61CCF998F00040EE7 /* orma_vade.png */; };
+		4B80F4B91CC517F0007F3309 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B80F4B81CC517F0007F3309 /* main.m */; };
+		4B80F4BC1CC517F0007F3309 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B80F4BB1CC517F0007F3309 /* AppDelegate.m */; };
+		4B80F4BF1CC517F0007F3309 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B80F4BE1CC517F0007F3309 /* ViewController.m */; };
+		4B80F4C21CC517F0007F3309 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B80F4C01CC517F0007F3309 /* Main.storyboard */; };
+		4B80F4C41CC517F0007F3309 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B80F4C31CC517F0007F3309 /* Assets.xcassets */; };
+		4B80F4C71CC517F0007F3309 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B80F4C51CC517F0007F3309 /* LaunchScreen.storyboard */; };
+		4B80F4D21CC517F0007F3309 /* OrtalamaVadeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B80F4D11CC517F0007F3309 /* OrtalamaVadeTests.m */; };
+		4B80F4DD1CC517F1007F3309 /* OrtalamaVadeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B80F4DC1CC517F1007F3309 /* OrtalamaVadeUITests.m */; };
+		4B8BF6301CCA197000256B50 /* yeni.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B8BF62F1CCA197000256B50 /* yeni.png */; };
+		4B8BF6321CCA197F00256B50 /* hesapla.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B8BF6311CCA197F00256B50 /* hesapla.png */; };
+		4B8BF6341CCA1BCC00256B50 /* ekle.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B8BF6331CCA1BCC00256B50 /* ekle.png */; };
+		4BC9CA661CC8BC0D007CB7CF /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BC9CA651CC8BC0D007CB7CF /* info.png */; };
+		4BC9CA681CC8BE32007CB7CF /* back-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BC9CA671CC8BE32007CB7CF /* back-icon.png */; };
+		4BC9CA701CC8C2F5007CB7CF /* orma1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BC9CA6F1CC8C2F5007CB7CF /* orma1.jpg */; };
+		4BC9CA721CC8C2FF007CB7CF /* orma2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BC9CA711CC8C2FF007CB7CF /* orma2.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B80F4CE1CC517F0007F3309 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B80F4AC1CC517F0007F3309 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B80F4B31CC517F0007F3309;
+			remoteInfo = OrtalamaVade;
+		};
+		4B80F4D91CC517F1007F3309 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B80F4AC1CC517F0007F3309 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B80F4B31CC517F0007F3309;
+			remoteInfo = OrtalamaVade;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B4FCCB61CCF998F00040EE7 /* orma_vade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = orma_vade.png; path = "../../../orma logo/orma_vade.png"; sourceTree = "<group>"; };
+		4B80F4B41CC517F0007F3309 /* OrtalamaVade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrtalamaVade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B80F4B81CC517F0007F3309 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B80F4BA1CC517F0007F3309 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4B80F4BB1CC517F0007F3309 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4B80F4BD1CC517F0007F3309 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4B80F4BE1CC517F0007F3309 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4B80F4C11CC517F0007F3309 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B80F4C31CC517F0007F3309 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B80F4C61CC517F0007F3309 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B80F4C81CC517F0007F3309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B80F4CD1CC517F0007F3309 /* OrtalamaVadeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrtalamaVadeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B80F4D11CC517F0007F3309 /* OrtalamaVadeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrtalamaVadeTests.m; sourceTree = "<group>"; };
+		4B80F4D31CC517F0007F3309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B80F4D81CC517F1007F3309 /* OrtalamaVadeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrtalamaVadeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B80F4DC1CC517F1007F3309 /* OrtalamaVadeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrtalamaVadeUITests.m; sourceTree = "<group>"; };
+		4B80F4DE1CC517F1007F3309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B8BF62F1CCA197000256B50 /* yeni.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yeni.png; path = ../../../yeni.png; sourceTree = "<group>"; };
+		4B8BF6311CCA197F00256B50 /* hesapla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hesapla.png; path = ../../../hesapla.png; sourceTree = "<group>"; };
+		4B8BF6331CCA1BCC00256B50 /* ekle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ekle.png; path = ../../../ekle.png; sourceTree = "<group>"; };
+		4BC9CA651CC8BC0D007CB7CF /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = info.png; path = ../../../info.png; sourceTree = "<group>"; };
+		4BC9CA671CC8BE32007CB7CF /* back-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back-icon.png"; path = "../../../back-icon.png"; sourceTree = "<group>"; };
+		4BC9CA6F1CC8C2F5007CB7CF /* orma1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = orma1.jpg; path = ../../../orma1.jpg; sourceTree = "<group>"; };
+		4BC9CA711CC8C2FF007CB7CF /* orma2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = orma2.jpg; path = ../../../orma2.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B80F4B11CC517F0007F3309 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B80F4CA1CC517F0007F3309 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B80F4D51CC517F1007F3309 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B80F4AB1CC517F0007F3309 = {
+			isa = PBXGroup;
+			children = (
+				4B80F4B61CC517F0007F3309 /* OrtalamaVade */,
+				4B80F4D01CC517F0007F3309 /* OrtalamaVadeTests */,
+				4B80F4DB1CC517F1007F3309 /* OrtalamaVadeUITests */,
+				4B80F4B51CC517F0007F3309 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B80F4B51CC517F0007F3309 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B80F4B41CC517F0007F3309 /* OrtalamaVade.app */,
+				4B80F4CD1CC517F0007F3309 /* OrtalamaVadeTests.xctest */,
+				4B80F4D81CC517F1007F3309 /* OrtalamaVadeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B80F4B61CC517F0007F3309 /* OrtalamaVade */ = {
+			isa = PBXGroup;
+			children = (
+				4B8AC31D1CC7B30C0091ED14 /* images */,
+				4B80F4BA1CC517F0007F3309 /* AppDelegate.h */,
+				4B80F4BB1CC517F0007F3309 /* AppDelegate.m */,
+				4B80F4BD1CC517F0007F3309 /* ViewController.h */,
+				4B80F4BE1CC517F0007F3309 /* ViewController.m */,
+				4B80F4C01CC517F0007F3309 /* Main.storyboard */,
+				4B80F4C31CC517F0007F3309 /* Assets.xcassets */,
+				4B80F4C51CC517F0007F3309 /* LaunchScreen.storyboard */,
+				4B80F4C81CC517F0007F3309 /* Info.plist */,
+				4B80F4B71CC517F0007F3309 /* Supporting Files */,
+			);
+			path = OrtalamaVade;
+			sourceTree = "<group>";
+		};
+		4B80F4B71CC517F0007F3309 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B80F4B81CC517F0007F3309 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B80F4D01CC517F0007F3309 /* OrtalamaVadeTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B80F4D11CC517F0007F3309 /* OrtalamaVadeTests.m */,
+				4B80F4D31CC517F0007F3309 /* Info.plist */,
+			);
+			path = OrtalamaVadeTests;
+			sourceTree = "<group>";
+		};
+		4B80F4DB1CC517F1007F3309 /* OrtalamaVadeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B80F4DC1CC517F1007F3309 /* OrtalamaVadeUITests.m */,
+				4B80F4DE1CC517F1007F3309 /* Info.plist */,
+			);
+			path = OrtalamaVadeUITests;
+			sourceTree = "<group>";
+		};
+		4B8AC31D1CC7B30C0091ED14 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				4B4FCCB61CCF998F00040EE7 /* orma_vade.png */,
+				4B8BF6331CCA1BCC00256B50 /* ekle.png */,
+				4B8BF6311CCA197F00256B50 /* hesapla.png */,
+				4B8BF62F1CCA197000256B50 /* yeni.png */,
+				4BC9CA711CC8C2FF007CB7CF /* orma2.jpg */,
+				4BC9CA6F1CC8C2F5007CB7CF /* orma1.jpg */,
+				4BC9CA671CC8BE32007CB7CF /* back-icon.png */,
+				4BC9CA651CC8BC0D007CB7CF /* info.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B80F4B31CC517F0007F3309 /* OrtalamaVade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B80F4E11CC517F1007F3309 /* Build configuration list for PBXNativeTarget "OrtalamaVade" */;
+			buildPhases = (
+				4B80F4B01CC517F0007F3309 /* Sources */,
+				4B80F4B11CC517F0007F3309 /* Frameworks */,
+				4B80F4B21CC517F0007F3309 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrtalamaVade;
+			productName = OrtalamaVade;
+			productReference = 4B80F4B41CC517F0007F3309 /* OrtalamaVade.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B80F4CC1CC517F0007F3309 /* OrtalamaVadeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B80F4E41CC517F1007F3309 /* Build configuration list for PBXNativeTarget "OrtalamaVadeTests" */;
+			buildPhases = (
+				4B80F4C91CC517F0007F3309 /* Sources */,
+				4B80F4CA1CC517F0007F3309 /* Frameworks */,
+				4B80F4CB1CC517F0007F3309 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B80F4CF1CC517F0007F3309 /* PBXTargetDependency */,
+			);
+			name = OrtalamaVadeTests;
+			productName = OrtalamaVadeTests;
+			productReference = 4B80F4CD1CC517F0007F3309 /* OrtalamaVadeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B80F4D71CC517F1007F3309 /* OrtalamaVadeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B80F4E71CC517F1007F3309 /* Build configuration list for PBXNativeTarget "OrtalamaVadeUITests" */;
+			buildPhases = (
+				4B80F4D41CC517F1007F3309 /* Sources */,
+				4B80F4D51CC517F1007F3309 /* Frameworks */,
+				4B80F4D61CC517F1007F3309 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B80F4DA1CC517F1007F3309 /* PBXTargetDependency */,
+			);
+			name = OrtalamaVadeUITests;
+			productName = OrtalamaVadeUITests;
+			productReference = 4B80F4D81CC517F1007F3309 /* OrtalamaVadeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B80F4AC1CC517F0007F3309 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Bekir Yaylacı";
+				TargetAttributes = {
+					4B80F4B31CC517F0007F3309 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = JY66DVK455;
+						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					4B80F4CC1CC517F0007F3309 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = SFVFRLDD9M;
+						TestTargetID = 4B80F4B31CC517F0007F3309;
+					};
+					4B80F4D71CC517F1007F3309 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = SFVFRLDD9M;
+						TestTargetID = 4B80F4B31CC517F0007F3309;
+					};
+				};
+			};
+			buildConfigurationList = 4B80F4AF1CC517F0007F3309 /* Build configuration list for PBXProject "OrtalamaVade" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B80F4AB1CC517F0007F3309;
+			productRefGroup = 4B80F4B51CC517F0007F3309 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B80F4B31CC517F0007F3309 /* OrtalamaVade */,
+				4B80F4CC1CC517F0007F3309 /* OrtalamaVadeTests */,
+				4B80F4D71CC517F1007F3309 /* OrtalamaVadeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B80F4B21CC517F0007F3309 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B80F4C71CC517F0007F3309 /* LaunchScreen.storyboard in Resources */,
+				4BC9CA721CC8C2FF007CB7CF /* orma2.jpg in Resources */,
+				4B4FCCB71CCF998F00040EE7 /* orma_vade.png in Resources */,
+				4BC9CA661CC8BC0D007CB7CF /* info.png in Resources */,
+				4B8BF6321CCA197F00256B50 /* hesapla.png in Resources */,
+				4B80F4C41CC517F0007F3309 /* Assets.xcassets in Resources */,
+				4B80F4C21CC517F0007F3309 /* Main.storyboard in Resources */,
+				4BC9CA701CC8C2F5007CB7CF /* orma1.jpg in Resources */,
+				4B8BF6301CCA197000256B50 /* yeni.png in Resources */,
+				4B8BF6341CCA1BCC00256B50 /* ekle.png in Resources */,
+				4BC9CA681CC8BE32007CB7CF /* back-icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B80F4CB1CC517F0007F3309 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B80F4D61CC517F1007F3309 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B80F4B01CC517F0007F3309 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B80F4BF1CC517F0007F3309 /* ViewController.m in Sources */,
+				4B80F4BC1CC517F0007F3309 /* AppDelegate.m in Sources */,
+				4B80F4B91CC517F0007F3309 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B80F4C91CC517F0007F3309 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B80F4D21CC517F0007F3309 /* OrtalamaVadeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B80F4D41CC517F1007F3309 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B80F4DD1CC517F1007F3309 /* OrtalamaVadeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B80F4CF1CC517F0007F3309 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B80F4B31CC517F0007F3309 /* OrtalamaVade */;
+			targetProxy = 4B80F4CE1CC517F0007F3309 /* PBXContainerItemProxy */;
+		};
+		4B80F4DA1CC517F1007F3309 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B80F4B31CC517F0007F3309 /* OrtalamaVade */;
+			targetProxy = 4B80F4D91CC517F1007F3309 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B80F4C01CC517F0007F3309 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B80F4C11CC517F0007F3309 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B80F4C51CC517F0007F3309 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B80F4C61CC517F0007F3309 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B80F4DF1CC517F1007F3309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		4B80F4E01CC517F1007F3309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B80F4E21CC517F1007F3309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = OrtalamaVade/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orma.vadehesap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		4B80F4E31CC517F1007F3309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = OrtalamaVade/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.orma.vadehesap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		4B80F4E51CC517F1007F3309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OrtalamaVadeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.OrtalamaVadeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrtalamaVade.app/OrtalamaVade";
+			};
+			name = Debug;
+		};
+		4B80F4E61CC517F1007F3309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OrtalamaVadeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.OrtalamaVadeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrtalamaVade.app/OrtalamaVade";
+			};
+			name = Release;
+		};
+		4B80F4E81CC517F1007F3309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OrtalamaVadeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.OrtalamaVadeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OrtalamaVade;
+			};
+			name = Debug;
+		};
+		4B80F4E91CC517F1007F3309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OrtalamaVadeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.OrtalamaVadeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OrtalamaVade;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B80F4AF1CC517F0007F3309 /* Build configuration list for PBXProject "OrtalamaVade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B80F4DF1CC517F1007F3309 /* Debug */,
+				4B80F4E01CC517F1007F3309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B80F4E11CC517F1007F3309 /* Build configuration list for PBXNativeTarget "OrtalamaVade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B80F4E21CC517F1007F3309 /* Debug */,
+				4B80F4E31CC517F1007F3309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B80F4E41CC517F1007F3309 /* Build configuration list for PBXNativeTarget "OrtalamaVadeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B80F4E51CC517F1007F3309 /* Debug */,
+				4B80F4E61CC517F1007F3309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B80F4E71CC517F1007F3309 /* Build configuration list for PBXNativeTarget "OrtalamaVadeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B80F4E81CC517F1007F3309 /* Debug */,
+				4B80F4E91CC517F1007F3309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B80F4AC1CC517F0007F3309 /* Project object */;
+}

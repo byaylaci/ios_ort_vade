@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="PHN-2U-Mbx">
+            <objects>
+                <viewController wantsFullScreenLayout="YES" id="bnS-gu-AiU" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cFq-Bb-qxo"/>
+                        <viewControllerLayoutGuide type="bottom" id="fog-bs-90d"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nhL-cl-a7O">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="orma1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zch-Rp-F1z">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="77" y="112" width="487" height="181"/>
+                                </variation>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zwa-vR-EXB">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" red="0.47989208010000001" green="0.61309718589999995" blue="0.37677339609999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Uzun yıllara dayanan bilgi birikimi ve kurumsal kimliğiyle kendi sektörünün önemli ve güvenilir kuruluşlarından biri olan Orma, 1970 yılında Isparta’da şehir merkezine 4 km. mesafede 50 bin metrekarelik bir arazi üzerinde kurulmuştur.
+
+İlk entegrasyonuna bir yonga levha ünitesi, bir doğal kaplama ünitesi ve kapalı plak üniteleri ile başlayan Orma, mobilya sektörünün ihtiyacına paralel olarak kendini yenilemiş ve bugün 500 bin metrekarelik bir arazi büyüklüğüne, 70 bin metrekarelik bir kapalı alana ulaşmıştır.
+
+1970 yılında 150 m3/gün olan kapasite bugün 2.160 m3/gün'e ulaşmıştır.
+
+Orma üretim kompleksi, 70.000 m2'si kapalı olmak üzere, 400.000 m2’lik bir sahanın üzerinde yükselmektedir ve şu fabrikalardan oluşmaktadır:
+
+Toplam 691.200 m3/yıl kapasiteli 3 adet yonga levha fabrikası
+Toplam 80.000.000 m2/yıl kapasiteli 3 adet dekor kağıdı emprenye tesisi
+12.000 Plaka/Gün kapasiteli melamin kaplı yonga levha fabrikası
+50.000 kg/yıl kapasiteli metal imalat fabrikası
+Komple ebatlama ünitesi
+Orman ürünlerinin işlenmemiş halde girip, en gelişmiş teknoloji ürünü tüketim maddelerine dönüştürüldüğü bu kompleks; dünya standartlarında teknolojisiyle Türkiye’nin en gelişmiş ve en kapsamlı tesisler dizisidir. Sonuçta; Orma ürünlerinin tümü, TSEN ve Avrupa Birliği EN normları olmak üzere, uluslararası standartlara uygundur.</string>
+                                        <attributes>
+                                            <font key="NSFont" size="12" name="CourierNewPSMT"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <rect key="frame" x="77" y="328" width="634" height="399"/>
+                                </variation>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jh7-VE-tAF">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="back-icon.png"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="267" y="20" width="187" height="84"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="UMo-xD-Gvp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.47989208010000001" green="0.61309718589999995" blue="0.37677339609999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="zch-Rp-F1z"/>
+                                <exclude reference="zwa-vR-EXB"/>
+                                <exclude reference="jh7-VE-tAF"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular">
+                            <mask key="subviews">
+                                <include reference="zch-Rp-F1z"/>
+                                <include reference="zwa-vR-EXB"/>
+                                <include reference="jh7-VE-tAF"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPadPro"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lW5-bl-rTk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1116" y="1.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vade Tarihi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FXf-C1-5Vo">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="32"/>
+                                <color key="textColor" red="0.61309718589999995" green="0.10662510729999999" blue="0.17608758760000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="267" y="174" width="170" height="88"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tutar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b4B-OP-PWC">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="31"/>
+                                <color key="textColor" red="0.61309718589999995" green="0.10662510729999999" blue="0.17608758760000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="472" y="174" width="170" height="88"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ort. Vade Tarihi:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tq4-17-PKD">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="4" y="516" width="147" height="39"/>
+                                </variation>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DWE-Wo-rfG">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="159" y="525" width="113" height="21"/>
+                                </variation>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oCP-eK-O5w">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="159" y="562" width="121" height="21"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="topRight" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yly-hE-qiM">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="info.png"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="696" y="101" width="52" height="54"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="bnS-gu-AiU" kind="showDetail" id="g5M-73-fGu"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ort. Vade Tutarı:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Atq-vY-JHZ">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="4" y="550" width="149" height="46"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hce-tv-pMx">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="tintColor" red="0.61309718589999995" green="0.10662510729999999" blue="0.17608758760000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" image="ekle.png"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="224" y="246" width="35" height="35"/>
+                                </variation>
+                                <connections>
+                                    <action selector="addRow" destination="BYZ-38-t0r" eventType="touchUpInside" id="IOj-hN-BNK"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="orma_vade.png" translatesAutoresizingMaskIntoConstraints="NO" id="qCD-hU-ddL">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="291" y="38" width="240" height="128"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dML-DF-KWa">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.47382110443682535" green="0.60114694148936176" blue="0.41876940588235007" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" image="hesapla.png">
+                                    <color key="titleColor" red="0.61309718589999995" green="0.10662510729999999" blue="0.17608758760000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="4" y="425" width="208" height="34"/>
+                                </variation>
+                                <connections>
+                                    <action selector="getAllData" destination="BYZ-38-t0r" eventType="touchUpInside" id="5ta-9w-iOV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tqL-DE-03o">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="yeni.png"/>
+                                <variation key="heightClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="373" width="177" height="35"/>
+                                </variation>
+                                <connections>
+                                    <action selector="newPage" destination="BYZ-38-t0r" eventType="touchUpInside" id="3lm-UH-oHW"/>
+                                    <segue destination="bnS-gu-AiU" kind="show" id="VaY-dt-3ZW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.47989208011180506" green="0.61309718589999995" blue="0.37677339605944032" alpha="1" colorSpace="calibratedRGB"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="FXf-C1-5Vo"/>
+                                <exclude reference="b4B-OP-PWC"/>
+                                <exclude reference="Tq4-17-PKD"/>
+                                <exclude reference="DWE-Wo-rfG"/>
+                                <exclude reference="oCP-eK-O5w"/>
+                                <exclude reference="Yly-hE-qiM"/>
+                                <exclude reference="Atq-vY-JHZ"/>
+                                <exclude reference="hce-tv-pMx"/>
+                                <exclude reference="qCD-hU-ddL"/>
+                                <exclude reference="dML-DF-KWa"/>
+                                <exclude reference="tqL-DE-03o"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular">
+                            <mask key="subviews">
+                                <include reference="FXf-C1-5Vo"/>
+                                <include reference="b4B-OP-PWC"/>
+                                <include reference="Tq4-17-PKD"/>
+                                <include reference="DWE-Wo-rfG"/>
+                                <include reference="oCP-eK-O5w"/>
+                                <include reference="Yly-hE-qiM"/>
+                                <include reference="Atq-vY-JHZ"/>
+                                <include reference="hce-tv-pMx"/>
+                                <include reference="qCD-hU-ddL"/>
+                                <include reference="dML-DF-KWa"/>
+                                <include reference="tqL-DE-03o"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPadPro"/>
+                    <connections>
+                        <outlet property="lblOrtVadeTarihi" destination="DWE-Wo-rfG" id="WoZ-gA-NH1"/>
+                        <outlet property="lblOrtVadeTutari" destination="oCP-eK-O5w" id="eph-Pz-eLt"/>
+                        <outlet property="view1" destination="8bC-Xf-vdC" id="wgt-Gg-k2N"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="197" y="240"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back-icon.png" width="128" height="128"/>
+        <image name="ekle.png" width="128" height="128"/>
+        <image name="hesapla.png" width="140" height="40"/>
+        <image name="info.png" width="128" height="128"/>
+        <image name="orma1.jpg" width="650" height="233"/>
+        <image name="orma_vade.png" width="66" height="88"/>
+        <image name="yeni.png" width="96" height="40"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="g5M-73-fGu"/>
+    </inferredMetricsTieBreakers>
+</document>
